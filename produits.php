@@ -2,6 +2,7 @@
 require "connexion.php";
 session_start();
 
+
 $sql = "SELECT * FROM produit";
 $result = $connexion->query($sql);
 ?>
@@ -66,6 +67,7 @@ $result = $connexion->query($sql);
 
 <br>
 <a href="dashboard.php">Retour Dashboard</a>
+<a href="ajoute.php">Ajouter un produit</a>
 
 </body>
 </html>
