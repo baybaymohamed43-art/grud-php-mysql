@@ -106,7 +106,7 @@ if(isset($_POST['ajouter'])){
 
             $resultat->execute();
 
-            header("Location: gestioncategorie.php?message=Produit ajouté avec succès");
+            header("Location: produits.php?message=Produit ajouté avec succès");
             exit();
 
         }catch(PDOException $e){
